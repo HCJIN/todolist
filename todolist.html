@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo-list</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="black_bg"></div>
+        <div class="container">
+            <div class="clock">
+                <p>현재 시간</p>
+                <span></span>
+            </div>
+            <div class="menu_wrap">
+                <form class="login_form none">
+                    <input type="text" placeholder="이름을 입력해주세요">
+                    <button>LogIn</button>
+                </form>
+                <h2 class="welcome none"></h2>
+                <form class="search_form" action="https://www.google.com/" method="get">
+                    <input type="text" placeholder="검색할 내용을 입력하세요.">
+                </form>
+                <form class="todo_form">
+                    <input type="text" placeholder="할 일을 적어주세요!">
+                </form>
+                <ul class="todo_list"></ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- script -->
+    <script src="js/app.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+</body>
+</html>
